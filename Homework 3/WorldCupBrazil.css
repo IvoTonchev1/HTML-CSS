@@ -1,0 +1,177 @@
+body {    
+    font-family: "Tahoma";
+    font-size: 1.5em; 
+}
+
+#container {
+    border-radius: 10px;    
+    position: absolute;       
+    white-space: nowrap;
+    width: 1300px;
+    height: 550px;  
+    background: #00923E;
+    padding: 20px;
+}
+
+th {
+    background-color: #F8C711 !important;  
+    font-size: 1.2em;
+	border-top: none;
+}
+
+.host, .guest {
+    width: 200px;
+}
+
+.host {
+    text-align: right;
+}
+
+.guest {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    height: 100%;    
+    border-collapse: separate;
+	border-spacing: 0;
+	border-radius: 10px; 
+    border: 2px solid black;
+
+}
+
+tr:first-child {
+    background-color: #00923E;
+}
+
+tr:last-child {
+    background-color: #00923E;
+}
+
+table tr:last-child td:first-child { 
+    border-bottom-left-radius:8px;    
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+th:first-child {
+    border-top-left-radius: 8px;   
+}
+
+th:last-child {
+    border-top-right-radius: 8px;
+}
+
+td, th {
+    text-align: center;
+    border-left: 2px solid black;
+	border-bottom: 2px solid black;
+    padding: 10px 5px 10px 5px; 	
+}
+
+th:first-child {
+    border-left: none;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tr:last-child td {
+    border-bottom: none;   
+}
+
+tr:nth-child(odd) td {
+    background: white;
+}
+
+tr:nth-child(even) td {
+    background: #C8C8C8;
+}
+
+tr {
+	background: #00923E;
+}
+
+#brasil p:after {
+    content: url('Images/Brazil.jpg');    
+}
+
+#mexico p:before {
+    content: url('Images/Mexico.jpg');
+}
+
+#spain p:after {
+    content: url('Images/Spain.jpg');
+}
+
+#netherlands p:before {
+    content: url('Images/Netherlands.jpg');
+}
+
+#italy p:after {
+    content: url('Images/Italy.jpg');   
+}
+
+#england p:before {
+    content: url('Images/England.jpg');
+}
+
+#argentina p:after {
+    content: url('Images/Argentina.jpg');   
+}
+
+#bosnia p:before {
+    content: url('Images/Bosnia.jpg');
+}
+
+#germany p:after {
+    content: url('Images/Germany.jpg');
+}
+
+#portugal p:before {
+    
+    content: url('Images/Portugal.jpg');
+}
+
+.red-button button {    
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    background-image: url('Images/RedButton.png');
+}
+
+.green-button button {    
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-repeat:no-repeat; 
+    background-image: url('Images/GreenButton.png');
+}
+
+select {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    color: green;
+}
+
+select[disabled] {
+    color: red;
+}
+
+button:focus {
+    outline: none;
+}

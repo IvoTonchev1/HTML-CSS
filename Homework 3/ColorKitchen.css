@@ -1,0 +1,163 @@
+body {
+	background-image: url("Images/colorful_dots_on_black.jpg");
+	font-family: Arial;
+}
+body>header {
+	color: yellow;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	background: -moz-linear-gradient(left,  red 0%, red 33%, green 33%, green 67%, blue 67%, blue 100%);
+	padding-bottom: 20px;
+}
+aside {
+	float: left;
+	width: 12%;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.8) !important;
+	margin-top: 20px;
+}
+body>aside>nav>header {
+	padding-left: 15px;
+	color: black !important;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+}
+body>aside>nav>ul {
+	list-style-image: url('Images/check.jpg');
+	padding-right: 10px;
+	list-style-position: inside;
+	padding-left: 15px;
+}
+body>aside>nav>ul li{
+	padding: 2px;
+	padding-right: 10px;
+}
+body>aside a:link {
+	text-decoration: none;
+	color: black;
+}
+body>aside a:visited {
+	color: gray;
+}
+body>aside>nav>ul li:hover:nth-child(1) {
+	background-color: red;
+	border-radius: 5px;
+}
+body>aside>nav>ul li:hover:nth-child(2) {
+	background-color: orange;
+	border-radius: 5px;
+}
+body>aside>nav>ul li:hover:nth-child(3) {
+	background-color: yellow;
+	border-radius: 5px;
+}
+body>aside>nav>ul li:hover:nth-child(4) {
+	background-color: green;
+	border-radius: 5px;
+}
+body>aside>nav>ul li:hover:nth-child(5) {
+	background-color: blue;
+	border-radius: 5px;
+}
+body>aside>nav>ul li:hover:nth-child(6) {
+	background-color: purple;
+	border-radius: 5px;
+}
+section{
+	margin-left: 260px;
+	float: 85% right;
+	width: 85%;
+}
+#webColors {
+	background-color: red;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+article{
+	background-color: rgba(255,255,255,0.8) !important;
+	border-radius: 15px;
+	margin: 10px;
+	padding-top: 2px;
+}
+#webSafeColors {
+	background-color: orange;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+#RGB {
+	background-color: yellow;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+#RGBA {
+	background-color: green;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+#\#HSLHSV {
+	background-color: rgba(0,0,255,1);
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+#\#lorem {
+	background-color: purple;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 10px;
+}
+body>section>article>div::first-line{
+	font-style: italic;	
+}
+body>section>article>div::first-letter{
+	font-size: 400%; 
+}
+body>section>article>footer {
+	font-style: italic;
+	padding-bottom: 15px;
+}
+body>section>article>footer a:link{
+	color: gray;
+}
+span:lang(la) {
+	font-style: italic;
+	color: blue;
+}
+span:lang(la):before, span:lang(la):after {
+	content: '"';
+}
+body>section>article {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body>section>article>div {
+	padding-bottom: 10px;
+}
+body article:nth-child(1){
+	margin-top: 20px;
+}

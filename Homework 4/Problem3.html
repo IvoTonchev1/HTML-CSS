@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Magic Car Gallery</title>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            font-family: Arial;
+        }
+        section {
+            vertical-align: top;
+            width: 40%;
+            height: 300px;
+            margin: 10px auto;
+            background-color: black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: yellow;
+            font-weight: bold;
+            font-size: 3em;
+            margin: 0 0 20px 0;
+        }
+        iframe {
+            width: 318px;
+            height: 218px;
+            background-color: black;
+            border: 2px solid yellow;
+            overflow: hidden;
+        }
+        iframe::-webkit-scrollbar {
+            display: none;
+        }
+        ul, iframe, nav {
+            display: inline-block;
+            padding: 0;
+            float: left;
+        }
+        ul li {
+            list-style-type: none;
+        }
+        nav {
+            height: 200px;
+            margin-left: 50px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 2em;
+            font-style: italic;
+        }
+        ul li a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <header>
+            <h1>Magic Car Gallery</h1>
+        </header>
+        <iframe name="car" src="resources/ford-mustang.jpg"></iframe>
+        <nav>
+            <ul>
+                <li><a href="Images/ford-mustang.jpg" target="car">Ford Mustang</a></li>
+                <li><a href="Images/bmw-m5-03.jpg" target="car">BMW M5</a></li>
+                <li><a href="Images/porsche-panamera.jpg" target="car">Porsche Panamera</a></li>
+                <li><a href="Images/rs5.jpg" target="car">Audi RS5</a></li>
+                <li><a href="Images/mercedes-benz.jpg" target="car">Mercedes-Benz C63-AMG</a></li>
+            </ul>
+        </nav>
+    </section>
+</body>
+</html>
+

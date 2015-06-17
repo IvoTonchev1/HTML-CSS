@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kent's Profile</title>
+	<style type="text/css">
+		body, figure, figcaption, h1, h2 {
+		    margin: 0;
+		    padding: 0;
+		    font-family: Arial;
+		}
+		section#main {
+		    background-color: #ffc0cb;
+		    border-radius: 5px;
+		    width: 51%;
+		    margin: 20px auto;
+		    padding: 10px;
+		}
+		h1 {
+		    text-align: center;
+		    font-size: 2em;
+		}
+		h2, figcaption {
+		    font-size: 1em;
+		    font-style: normal;
+		    font-weight: normal;
+		}
+		section > section {
+		    display: inline-block;  
+		    vertical-align: top; 
+		    margin: 10px; 
+		}   
+		section > audio {
+		    display: block;
+		    margin: 3px 0;
+		}
+		embed {
+		    height: 140px;
+		}
+		meter {
+		    width: 75%;
+		    height: 20px;
+		    }
+	</style>
+</head>
+<body>
+    <section id="main">
+        <h1>Profile</h1>
+        <section id="info">
+            <h2>User: Kent</h2>
+            <figure>
+                <img src="Images/kent.png" alt="Image Not Found" width="280" height="230"/>
+                <figcaption>Profile completed 60%</figcaption>                
+            </figure>
+            <meter value="0.6"></meter>
+        </section>
+        <section id="audio">
+            <h2>Uploaded Audio Files</h2>
+            <embed type="audio/mp3" src="Images/impact-rock-thrown-in-puddle-001.mp3" />              
+            <audio controls>
+                <source src="Images/impact-rock-thrown-in-puddle-001.mp3" type="audio/ogg" />
+                <source src="Images/impact-rock-thrown-in-puddle-001.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+            <audio controls>
+                <source src="Images/foley-footsteps-on-stoney-beach.mp3" type="audio/ogg" />
+                <source src="Images/foley-footsteps-on-stoney-beach.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+            <audio controls>
+                <source src="Images/human-burps-two-children-5-and-7-forcing-burps-003.mp3" type="audio/ogg" />
+                <source src="Images/human-burps-two-children-5-and-7-forcing-burps-003.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+        <section id="video">
+            <h2>Uploaded Video Files</h2>
+            <video width="320" height="240" controls>
+                <source src="Images/H264_test3_Talkingheadclipped_mp4_480x360.mp4" type="video/mp4" />
+                <source src="Images/H264_test3_Talkingheadclipped_mp4_480x360.mp4" type="video/ogg" />
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </section>
+</body>
+</html>
